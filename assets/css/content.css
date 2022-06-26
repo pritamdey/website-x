@@ -1,0 +1,5 @@
+.content {
+    max-width: var(--max-allowed-width);
+    margin: 150px auto 150px auto;
+}
+

@@ -1,0 +1,85 @@
+/* 
+header
+  -title-bar (background and colour here)
+    -title-bar-inner
+      -title-bar-objects
+  -nav-bar
+    -nav-bar-inner
+      -nav-bar-objects
+*/
+
+
+header {
+    padding-top: 0 0 0 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.title-bar{
+    position: relative;
+    background-color: rgb(0, 115, 160);
+    max-height: fit-content;
+}
+
+.title-bar-inner{
+    margin: auto;
+    max-height: fit-content;
+    max-width: var(--max-allowed-width);
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    padding: 1em 1em 1em 0;
+    color: #fff;
+}
+
+.logo-pic{
+    color: #fff;
+}
+
+.logo-pic img{
+    padding: 1em 1em 1em 0;
+    height: 28px;
+    width: 220px;
+}
+
+
+.nav-bar{
+    background-color: #333;
+    max-height: fit-content;
+    position: relative;
+}
+
+.nav-bar-inner{
+    margin: auto;
+    max-height: fit-content;
+    max-width: var(--max-allowed-width);
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-button {
+    color: #fff;
+    padding: 1em;
+}
+
+.nav-button a:link {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+.nav-button  a:visited {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+.nav-button a:hover {
+    text-decoration: none;
+  }
+  
+.nav-button a:active {
+    text-decoration: none;
+  }

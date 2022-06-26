@@ -1,0 +1,57 @@
+/* 
+footer
+  -foot-info (background and colour here)
+    -foot-info-inner
+      -foot-info-objects
+  -foot-copy
+    -foot-copy-inner
+      -foot-copy-objects
+*/
+
+
+footer {
+    padding-top: 0 0 0 0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.foot-copy{
+    position: relative;
+    background-color: #fff;
+}
+
+.foot-copy-inner{
+    margin: auto;
+    max-height: fit-content;
+    max-width: var(--max-allowed-width);
+    display: flex;
+    justify-content: center;
+}
+
+.footer-copy-text{
+    padding: 0.5em;
+    color: #000;
+    margin: 0;
+    font-size: small;
+}
+
+.foot-info{
+    position: relative;
+    background-color: #ddd;
+}
+
+.foot-info-inner{
+    margin: auto;
+    max-height: fit-content;
+    max-width: var(--max-allowed-width);
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-info-text{
+    padding: 0.5em;
+    color: #000;
+    margin: 0;
+}

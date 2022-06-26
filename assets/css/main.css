@@ -1,0 +1,18 @@
+/*
+ This file contains all global parameters and pulls ttogether all the css files
+*/
+
+@import "header.css";
+@import "content.css";
+@import "footer.css";
+
+
+:root {
+    --max-allowed-width: 1000px;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+
